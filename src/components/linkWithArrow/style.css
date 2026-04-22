@@ -1,0 +1,8 @@
+
+
+.link-with-arrow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  color: var(--primary-color);
+}

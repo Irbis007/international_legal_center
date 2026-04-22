@@ -1,0 +1,12 @@
+export { Header } from "./header/Header.tsx";
+export { Intro } from "./intro/Intro.tsx";
+export { SecondSection } from "./secondSection/SecondSection.tsx";
+export { Benefits } from "./benefits/Benefits.tsx";
+export { Tariffs } from "./tariffs/Tariffs.tsx";
+export { LinkWithArrow } from "./linkWithArrow/LinkWithArrow.tsx";
+export { LogoWithText } from "./logoWithText/LogoWithText.tsx";
+export { StartEasy } from "./startEasy/StartEasy.tsx";
+export { Boss } from "./boss/Boss.tsx";
+export { Forecasts } from "./forecasts/Forecasts.tsx";
+export { Partner } from "./partner/Partner.tsx";
+export { Footer } from "./footer/Footer.tsx";

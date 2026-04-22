@@ -1,0 +1,90 @@
+.boss .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 30px;
+  margin-top: 144px;
+}
+
+.boss-img {
+  position: relative;
+  width: fit-content;
+}
+
+.boss-quote {
+  position: absolute;
+  bottom: -28px;
+  right: -140px;
+  padding: 32px;
+  border-radius: 12px;
+  box-shadow: 0 12px 100px #bba6ff20;
+  background-color: #fff;
+  width: fit-content;
+  & div {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  & span {
+    font-style: italic;
+    font-size: 12px;
+  }
+}
+
+.boss-body {
+  max-width: 470px;
+  padding-bottom: 40px;
+  & .title {
+    margin-top: 8px;
+  }
+  & .title-medium {
+    margin-top: 16px;
+    font-weight: 500;
+  }
+
+  & ul {
+    padding-left: 20px;
+    & .list_item {
+      height: 20px;
+      font-size: 14px;
+      list-style: disc;
+    }
+  }
+  & .button {
+    margin-top: 32px;
+  }
+}
+
+@media (max-width: 776px) {
+  .boss .container {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 78px;
+  }
+  .boss-img {
+    padding-right: 76px;
+
+    & img {
+      max-width: 500px;
+      width: 100%;
+    }
+    & .boss-quote {
+      right: 0;
+      bottom: -40px;
+      width: 300px;
+      padding: 16px;
+      font-size: 11px;
+    }
+  }
+  .boss-body {
+    padding-bottom: 0;
+    & .title,
+    & .subtitle:first-child,
+    & .title-medium {
+      text-align: center;
+    }
+  }
+  & .button {
+    margin: 0 auto;
+    padding: 12px 48px;
+  }
+}
