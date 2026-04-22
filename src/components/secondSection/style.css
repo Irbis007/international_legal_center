@@ -1,6 +1,6 @@
 .second_section {
   margin-top: 180px;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 .second_section-content {
